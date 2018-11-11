@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
+              "../admin-service-bus/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../admin-service-bus/node_modules/jquery/dist/jquery.min.js",
+              "../admin-service-bus/node_modules/popper.js/dist/umd/popper.min.js",
+              "../admin-service-bus/node_modules/bootstrap/dist/js/bootstrap.min.js"          
+            ]
           },
           "configurations": {
             "production": {

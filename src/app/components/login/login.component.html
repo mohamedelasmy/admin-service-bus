@@ -1,0 +1,38 @@
+<div class="container text-center">
+  <form class="form-signin col-md-4 m-auto" (ngSubmit)="onSubmit()">
+    <img class="mb-4 mt-5 col-md-6" src="http://channelvas.com/img/channelvas-logo.png" alt="">
+    <h1 class="h3 mb-4 font-weight-normal">Sign In</h1>
+    <input 
+      type="text" 
+      id="inputEmail" 
+      class="form-control  mb-2" 
+      placeholder="user name" 
+      required 
+      autofocus
+      name="username">
+    <input 
+      type="password"
+      id="inputPassword" 
+      class="form-control mb-2" 
+      placeholder="Password" 
+      required
+      name="password">
+    <div class="checkbox mb-3">
+      <label class="col-md-12 text-left">
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+      <!-- <span class="col-md-12">Don't have an account? <a routerLink="/register">Sign up</a></span> -->
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  </form>
+</div>
+
+<!-- <div style="text-align:center; margin-top: 150px;">
+
+  <h1 style="font-size: 4em;">
+
+      Notifications : <span style="color: red;">+{{ notifications }}</span>
+
+  </h1>
+
+</div> -->
